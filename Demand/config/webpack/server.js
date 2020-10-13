@@ -2,7 +2,7 @@ const {paths} = require('../paths')
 const nodeExternals = require('webpack-node-externals');
 const ModuleFederationPlugin = require("webpack").container.ModuleFederationPlugin;
 
-
+const deps = require('../../package.json').dependencies
 const serverConfig = {
     name: 'server',
     target: 'node',
@@ -11,7 +11,8 @@ const serverConfig = {
     output: {
         path: paths.serverBuild,
         filename: 'serverBundle.js',
-        chunkFilename: '[name].server.js'
+        chunkFilename: '[name].server.js',
+        libraryTarget: "commonjs2",
 
     },
     externals: [nodeExternals()],
@@ -57,9 +58,9 @@ const serverConfig = {
             library: { type: "commonjs2" },
             filename: "container.js",
             exposes: {
-                "./header": "./src/components/header",
+                "./Header": "./src/components/header",
             },
-            shared: ["react", "react-dom"]
+            shared: [{"react":deps.react, "react-dom":deps["react-dom"]}],
         }),
     ],
     devtool: 'inline-source-map'

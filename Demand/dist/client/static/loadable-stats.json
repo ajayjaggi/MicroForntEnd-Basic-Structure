@@ -1,8 +1,8 @@
 {
   "name": "client",
-  "hash": "ced474d3ca4d70f4745c",
+  "hash": "adeffbd7b4576409b41c",
   "version": "5.0.0",
-  "publicPath": "/static/",
+  "publicPath": "http://localhost:4005/static/",
   "outputPath": "/Users/ajay/Desktop/WebStrom/MicroFrontend/Demand/dist/client/static/",
   "assetsByChunkName": {
     "main": [
@@ -22,7 +22,7 @@
     {
       "type": "asset",
       "name": "vendors-node_modules_react-dom_index_js.js",
-      "size": 2303214,
+      "size": 2303209,
       "chunkNames": [],
       "chunkIdHints": [
         "vendors"
@@ -43,7 +43,7 @@
     {
       "type": "asset",
       "name": "vendors-node_modules_loadable_component_dist_loadable_esm_js-node_modules_react-router-dom_es-cd007b.js",
-      "size": 407755,
+      "size": 407735,
       "chunkNames": [],
       "chunkIdHints": [
         "vendors"
@@ -64,7 +64,7 @@
     {
       "type": "asset",
       "name": "vendors-node_modules_react_index_js.js",
-      "size": 166454,
+      "size": 184524,
       "chunkNames": [],
       "chunkIdHints": [
         "vendors"
@@ -84,29 +84,8 @@
     },
     {
       "type": "asset",
-      "name": "main.js",
-      "size": 64613,
-      "chunkNames": [
-        "main"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {},
-      "related": {},
-      "chunks": [
-        "main"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
       "name": "container.js",
-      "size": 62530,
+      "size": 60804,
       "chunkNames": [
         "demand"
       ],
@@ -126,9 +105,11 @@
     },
     {
       "type": "asset",
-      "name": "node_modules_object-assign_index_js-node_modules_prop-types_checkPropTypes_js-_320c-_a15c0.js",
-      "size": 18570,
-      "chunkNames": [],
+      "name": "main.js",
+      "size": 59888,
+      "chunkNames": [
+        "main"
+      ],
       "chunkIdHints": [],
       "auxiliaryChunkNames": [],
       "auxiliaryChunkIdHints": [],
@@ -138,15 +119,15 @@
       "info": {},
       "related": {},
       "chunks": [
-        "node_modules_object-assign_index_js-node_modules_prop-types_checkPropTypes_js-_320c-_a15c0"
+        "main"
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
     {
       "type": "asset",
-      "name": "node_modules_object-assign_index_js-node_modules_prop-types_checkPropTypes_js-_320c-_a15c1.js",
-      "size": 18570,
+      "name": "node_modules_object-assign_index_js-node_modules_prop-types_checkPropTypes_js.js",
+      "size": 18541,
       "chunkNames": [],
       "chunkIdHints": [],
       "auxiliaryChunkNames": [],
@@ -157,15 +138,15 @@
       "info": {},
       "related": {},
       "chunks": [
-        "node_modules_object-assign_index_js-node_modules_prop-types_checkPropTypes_js-_320c-_a15c1"
+        "node_modules_object-assign_index_js-node_modules_prop-types_checkPropTypes_js"
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
     {
       "type": "asset",
-      "name": "src_client_bootstrap_js-webpack_sharing_consume_default_react_react-webpack_sharing_consume_d-79363d.js",
-      "size": 12475,
+      "name": "src_client_bootstrap_js.js",
+      "size": 12283,
       "chunkNames": [],
       "chunkIdHints": [],
       "auxiliaryChunkNames": [],
@@ -176,7 +157,7 @@
       "info": {},
       "related": {},
       "chunks": [
-        "src_client_bootstrap_js-webpack_sharing_consume_default_react_react-webpack_sharing_consume_d-79363d"
+        "src_client_bootstrap_js"
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
@@ -184,7 +165,7 @@
     {
       "type": "asset",
       "name": "Home.js",
-      "size": 5969,
+      "size": 5959,
       "chunkNames": [
         "Home"
       ],
@@ -205,7 +186,7 @@
     {
       "type": "asset",
       "name": "src_components_header_index_js.js",
-      "size": 3162,
+      "size": 3157,
       "chunkNames": [],
       "chunkIdHints": [],
       "auxiliaryChunkNames": [],
@@ -224,7 +205,7 @@
     {
       "type": "asset",
       "name": "Dedicated.js",
-      "size": 2240,
+      "size": 2235,
       "chunkNames": [
         "Dedicated"
       ],

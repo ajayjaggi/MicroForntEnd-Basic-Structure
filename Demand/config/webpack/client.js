@@ -3,6 +3,8 @@ const {paths} = require('../paths')
 const LoadablePlugin = require('@loadable/webpack-plugin')
 const ModuleFederationPlugin = require("webpack").container.ModuleFederationPlugin;
 
+const deps = require('../../package.json').dependencies
+
 const clientConfig = {
     name: 'client',
     target: 'web',
@@ -11,7 +13,7 @@ const clientConfig = {
     output: {
         path: path.join(paths.clientBuild,paths.publicPath),
         filename: '[name].js',
-        publicPath: paths.publicPath,
+        publicPath: "http://localhost:4005/static/",
         chunkFilename: '[name].js'
     },
     optimization: {
@@ -53,9 +55,9 @@ const clientConfig = {
             name: "demand",
             filename: "container.js",
             exposes: {
-                "./header": "./src/components/header",
+                "./Header": "./src/components/header",
             },
-            shared: ["react", "react-dom"]
+            shared: [{"react":deps.react, "react-dom":deps["react-dom"]}],
         })
     ]
 }

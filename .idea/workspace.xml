@@ -2,6 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7280eb3c-0499-4617-8ee1-7692d652e8f3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demand/config/webpack/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/Demand/config/webpack/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demand/config/webpack/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/Demand/config/webpack/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demand/dist/client/static/Dedicated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demand/dist/client/static/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demand/dist/client/static/container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demand/dist/client/static/loadable-stats.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demand/dist/client/static/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demand/dist/client/static/node_modules_object-assign_index_js-node_modules_prop-types_checkPropTypes_js-_320c-_a15c0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demand/dist/client/static/node_modules_object-assign_index_js-node_modules_prop-types_checkPropTypes_js-_320c-_a15c1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demand/dist/client/static/src_client_bootstrap_js-webpack_sharing_consume_default_react_react-webpack_sharing_consume_d-79363d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demand/dist/client/static/src_components_header_index_js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demand/dist/client/static/vendors-node_modules_loadable_component_dist_loadable_esm_js-node_modules_react-router-dom_es-cd007b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demand/dist/client/static/vendors-node_modules_react-dom_index_js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demand/dist/client/static/vendors-node_modules_react_index_js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demand/dist/server/Dedicated.server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demand/dist/server/Home.server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demand/dist/server/container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demand/dist/server/serverBundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demand/dist/server/src_components_header_index_js.server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pg" beforeDir="false" afterPath="$PROJECT_DIR$/Pg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pg/config/paths.js" beforeDir="false" afterPath="$PROJECT_DIR$/Pg/config/paths.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pg/config/webpack/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/Pg/config/webpack/client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pg/config/webpack/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/Pg/config/webpack/server.js" afterDir="false" />
@@ -17593,76 +17614,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pg/src/shared/dedicated/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demand/dist/client/static/src_components_header_index_js.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demand/dist/client/static/container.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demand/config/webpack/client.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pg/dist/server/serverBundle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="440" column="60" lean-forward="true" selection-start-line="440" selection-start-column="26" selection-end-line="440" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demand/config/webpack/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pg/config/webpack/client.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pg/config/webpack/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" column="37" lean-forward="true" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demand/src/client/bootstrap.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="225">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -17671,10 +17624,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Demand/src/client/index.js">
+        <entry file="file://$PROJECT_DIR$/Pg/.babelrc">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Pg/config/webpack/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="72" column="74" lean-forward="true" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Demand/config/webpack/client.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-365">
+              <caret line="15" column="52" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Demand/config/webpack/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="56" column="25" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pg/config/webpack/client.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="51" column="29" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pg/src/server/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -17695,7 +17696,6 @@
       <find>react-</find>
       <find>createChunkAsset</find>
       <find>webpack-lo</find>
-      <find>Header</find>
       <find>done</find>
       <find>create</find>
       <find>loadableR</find>
@@ -17706,6 +17706,8 @@
       <find>&quot;webpack/container/reference/demand</find>
       <find>webpack/container/reference/demand</find>
       <find>expose</find>
+      <find>Header</find>
+      <find>dedicated</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -17732,14 +17734,14 @@
         <option value="$PROJECT_DIR$/Pg/node_modules/@loadable/webpack-plugin/lib/index.js" />
         <option value="$PROJECT_DIR$/Demand/src/server/index.js" />
         <option value="$PROJECT_DIR$/Pg/src/shared/home/index.js" />
-        <option value="$PROJECT_DIR$/Pg/src/shared/dedicated/index.js" />
         <option value="$PROJECT_DIR$/Pg/src/client/bootstrap.js" />
         <option value="$PROJECT_DIR$/Pg/src/client/index.js" />
         <option value="$PROJECT_DIR$/Demand/src/client/bootstrap.js" />
         <option value="$PROJECT_DIR$/Demand/src/client/index.js" />
-        <option value="$PROJECT_DIR$/Demand/config/webpack/server.js" />
-        <option value="$PROJECT_DIR$/Pg/config/webpack/client.js" />
         <option value="$PROJECT_DIR$/Demand/config/webpack/client.js" />
+        <option value="$PROJECT_DIR$/Pg/config/webpack/client.js" />
+        <option value="$PROJECT_DIR$/Demand/config/webpack/server.js" />
+        <option value="$PROJECT_DIR$/Pg/src/shared/dedicated/index.js" />
         <option value="$PROJECT_DIR$/Pg/config/webpack/server.js" />
       </list>
     </option>
@@ -17762,6 +17764,29 @@
               <item name="MicroFrontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="MicroFrontend" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MicroFrontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroFrontend" type="462c0819:PsiDirectoryNode" />
+              <item name="Demand" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroFrontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroFrontend" type="462c0819:PsiDirectoryNode" />
+              <item name="Pg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroFrontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroFrontend" type="462c0819:PsiDirectoryNode" />
+              <item name="Pg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MicroFrontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MicroFrontend" type="462c0819:PsiDirectoryNode" />
+              <item name="Pg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -17770,6 +17795,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Demand" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -17809,17 +17835,17 @@
       <updated>1602336437501</updated>
       <workItem from="1602336438786" duration="1268000" />
       <workItem from="1602339302683" duration="5388000" />
-      <workItem from="1602410061159" duration="29975000" />
+      <workItem from="1602410061159" duration="34875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36631000" />
+    <option name="totallyTimeSpent" value="41531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" />
@@ -17833,7 +17859,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="GraphQL" order="8" weight="0.32961586" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" visible="true" weight="0.32961586" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" visible="true" weight="0.37174723" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5003524" side_tool="true" weight="0.32961586" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -17844,8 +17870,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PG/dist/client/static/vendors~main.js" />
-    <entry file="file://$PROJECT_DIR$/Demand/node_modules/react-router-dom/esm/react-router-dom.js" />
     <entry file="file://$PROJECT_DIR$/Demand/node_modules/react-dom/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -17958,23 +17982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demand/config/paths.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pg/src/server/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pg/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
@@ -17986,13 +17993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demand/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1228">
-          <caret line="96" column="26" selection-end-line="115" />
         </state>
       </provider>
     </entry>
@@ -18024,30 +18024,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demand/src/server/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="16" selection-start-line="16" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Demand/config/webpack/index.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demand/dist/server/container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-148" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demand/src/components/header/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pg/dist/client/static/Dedicated.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -18075,27 +18053,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pg/src/shared/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="83" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pg/dist/server/Home.server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pg/dist/server/Dedicated.server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -18140,55 +18101,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demand/config/webpack/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pg/config/webpack/client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pg/src/shared/dedicated/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Demand/dist/client/static/src_components_header_index_js.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demand/dist/client/static/container.js">
+    <entry file="file://$PROJECT_DIR$/Demand/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="164">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Demand/config/webpack/client.js">
+    <entry file="file://$PROJECT_DIR$/Demand/src/components/header/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demand/dist/client/static/container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="257" selection-start-line="15" selection-start-column="227" selection-end-line="15" selection-end-column="257" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demand/config/paths.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demand/src/server/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pg/dist/server/serverBundle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="440" column="60" lean-forward="true" selection-start-line="440" selection-start-column="26" selection-end-line="440" selection-end-column="60" />
+        <state relative-caret-position="72">
+          <caret line="526" column="64" selection-start-line="526" selection-start-column="64" selection-end-line="526" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pg/src/shared/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="82" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pg/config/webpack/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pg/src/server/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pg/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demand/config/webpack/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-365">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demand/dist/server/container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="15" column="173" selection-start-line="15" selection-start-column="141" selection-end-line="15" selection-end-column="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demand/config/webpack/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demand/dist/server/Home.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="55" column="66" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pg/dist/server/Dedicated.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pg/src/shared/dedicated/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pg/config/webpack/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="37" lean-forward="true" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+        <state relative-caret-position="295">
+          <caret line="72" column="74" lean-forward="true" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="74" />
         </state>
       </provider>
     </entry>
