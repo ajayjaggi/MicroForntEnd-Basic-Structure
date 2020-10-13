@@ -1,9 +1,9 @@
 {
   "name": "client",
-  "hash": "b80829014ff673cd08c3",
+  "hash": "a09295afc61d9f6f694f",
   "version": "5.0.0",
   "publicPath": "http://localhost:4006/static/",
-  "outputPath": "/Users/ajay/Desktop/WebStrom/MicroFrontend/Pg/dist/client/static/",
+  "outputPath": "/Users/ajay/Desktop/WebStrom/MicroFrontend/Edge/dist/client/static/",
   "assetsByChunkName": {
     "main": [
       "main.js"
