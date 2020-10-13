@@ -1,0 +1,373 @@
+{
+  "name": "client",
+  "hash": "ced474d3ca4d70f4745c",
+  "version": "5.0.0",
+  "publicPath": "/static/",
+  "outputPath": "/Users/ajay/Desktop/WebStrom/MicroFrontend/Demand/dist/client/static/",
+  "assetsByChunkName": {
+    "main": [
+      "main.js"
+    ],
+    "demand": [
+      "container.js"
+    ],
+    "Home": [
+      "Home.js"
+    ],
+    "Dedicated": [
+      "Dedicated.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "vendors-node_modules_react-dom_index_js.js",
+      "size": 2303214,
+      "chunkNames": [],
+      "chunkIdHints": [
+        "vendors"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "related": {},
+      "chunks": [
+        "vendors-node_modules_react-dom_index_js"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "vendors-node_modules_loadable_component_dist_loadable_esm_js-node_modules_react-router-dom_es-cd007b.js",
+      "size": 407755,
+      "chunkNames": [],
+      "chunkIdHints": [
+        "vendors"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "related": {},
+      "chunks": [
+        "vendors-node_modules_loadable_component_dist_loadable_esm_js-node_modules_react-router-dom_es-cd007b"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "vendors-node_modules_react_index_js.js",
+      "size": 166454,
+      "chunkNames": [],
+      "chunkIdHints": [
+        "vendors"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "related": {},
+      "chunks": [
+        "vendors-node_modules_react_index_js"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "main.js",
+      "size": 64613,
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "related": {},
+      "chunks": [
+        "main"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "container.js",
+      "size": 62530,
+      "chunkNames": [
+        "demand"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "related": {},
+      "chunks": [
+        "demand"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "node_modules_object-assign_index_js-node_modules_prop-types_checkPropTypes_js-_320c-_a15c0.js",
+      "size": 18570,
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "related": {},
+      "chunks": [
+        "node_modules_object-assign_index_js-node_modules_prop-types_checkPropTypes_js-_320c-_a15c0"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "node_modules_object-assign_index_js-node_modules_prop-types_checkPropTypes_js-_320c-_a15c1.js",
+      "size": 18570,
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "related": {},
+      "chunks": [
+        "node_modules_object-assign_index_js-node_modules_prop-types_checkPropTypes_js-_320c-_a15c1"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "src_client_bootstrap_js-webpack_sharing_consume_default_react_react-webpack_sharing_consume_d-79363d.js",
+      "size": 12475,
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "related": {},
+      "chunks": [
+        "src_client_bootstrap_js-webpack_sharing_consume_default_react_react-webpack_sharing_consume_d-79363d"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "Home.js",
+      "size": 5969,
+      "chunkNames": [
+        "Home"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "related": {},
+      "chunks": [
+        "Home"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "src_components_header_index_js.js",
+      "size": 3162,
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "related": {},
+      "chunks": [
+        "src_components_header_index_js"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "Dedicated.js",
+      "size": 2240,
+      "chunkNames": [
+        "Dedicated"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {},
+      "related": {},
+      "chunks": [
+        "Dedicated"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "webpack_sharing_provide_default_react-dom-webpack_sharing_provide_default_react",
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "main.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "demand": {
+      "name": "demand",
+      "chunks": [
+        "webpack_sharing_provide_default_react-dom-webpack_sharing_provide_default_react",
+        "demand"
+      ],
+      "assets": [
+        {
+          "name": "container.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "webpack_sharing_provide_default_react-dom-webpack_sharing_provide_default_react",
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "main.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "demand": {
+      "name": "demand",
+      "chunks": [
+        "webpack_sharing_provide_default_react-dom-webpack_sharing_provide_default_react",
+        "demand"
+      ],
+      "assets": [
+        {
+          "name": "container.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "Home": {
+      "name": "Home",
+      "chunks": [
+        "Home"
+      ],
+      "assets": [
+        {
+          "name": "Home.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "Dedicated": {
+      "name": "Dedicated",
+      "chunks": [
+        "Dedicated"
+      ],
+      "assets": [
+        {
+          "name": "Dedicated.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": []
+}
