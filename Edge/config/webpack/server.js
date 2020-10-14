@@ -10,6 +10,9 @@ console.log(path.resolve(
     "../../../Demand/dist/server/container.js"
 ))
 
+console.log(paths.serverEntry)
+console.log(paths.serverBuild)
+
 const serverConfig = {
     name: 'server',
     target: 'node',
@@ -17,12 +20,12 @@ const serverConfig = {
     entry: paths.serverEntry,
     output: {
         path: paths.serverBuild,
-        filename: 'serverBundle.js',
+        filename: '[name].js',
         chunkFilename: '[name].server.js',
-        libraryTarget: "commonjs2",
+        publicPath: '/'
 
     },
-    externals: [nodeExternals()],
+    externals: ["enhanced-resolve"],
     optimization: {
         splitChunks: {
             chunks: 'all'
@@ -56,13 +59,13 @@ const serverConfig = {
     },
     resolve:{
         extensions: ['.js', '.mjs', '.json', '.jsx', '.css'],
-        modules: ['node_modules'],
+        // modules: ['node_modules'],
         // mainFiles: ['index']
     },
     plugins: [
         new ModuleFederationPlugin({
             name: "edge",
-            library: { type: "commonjs2" },
+            library: { type: "commonjs-module" },
             filename: "container.js",
             remotes: {
                 demand: path.resolve(
@@ -70,7 +73,7 @@ const serverConfig = {
                     "../../../Demand/dist/server/container.js"
                 )
             },
-            shared: [{"react":deps.react, "react-dom":deps["react-dom"]}],
+            // shared: [{"react":deps.react, "react-dom":deps["react-dom"]}],
         }),
     ],
     devtool: 'inline-source-map'

@@ -8,10 +8,19 @@ import bodyParser from 'body-parser'
 import App from '../shared/app'
 import {StaticRouter} from 'react-router-dom'
 import path from "path";
+import initMiddleware from './middleware'
 
 // const {clientCompiler, watchOptions} = require('../../scripts/start')
 // // const webpackDevMiddleware = require('webpack-dev-middleware')
 // const clientConfig = require('../../config/webpack/client')
+
+// import middleware from './render'
+
+
+// let fun  = async  (req,res) => {
+//     const renderer = (await import("./render")).default;
+//     return renderer(req,res)
+// }
 
 
 const app = express()
@@ -23,55 +32,16 @@ app.use(paths.publicPath, express.static(path.join(paths.clientBuild, paths.publ
 //   publicPath: clientConfig.output.publicPath,
 //     ...watchOptions
 // }))
+// app.use(fun)
 
-app.use((req,res) => {
+const done = () => {
+    app.listen(4006, () => {
+        console.log(`Server is listening on port: 4006`);
+    });
+};
 
-    const extractor = new ChunkExtractor({
-       statsFile: paths.loadableServerStatsFile,
-        entrypoints: ['main']
-    })
+initMiddleware(express, app, done);
 
-    // console.log(extractor.collectChunks(
-    //     <StaticRouter location={req.url}>
-    //         <App/>
-    //     </StaticRouter>
-    // ))
-
-
-    const appContainer = renderToString(extractor.collectChunks(
-        <StaticRouter location={req.url}>
-            <App/>
-        </StaticRouter>
-    ))
-
-    res.send(
-    `
-    <!DOCTYPE html>
-      <html>
-        <head>
-            <title>
-                   Basic Webpack app            
-            </title>
-            ${extractor.getStyleTags()}
-        </head>
-        
-        <body>
-            ${extractor.getScriptTags()}
-            <div id='root'>
-                ${appContainer}
-            </div>
-        </body>
-      </html>
-      `
-    )
-})
-
-
-
-
-app.listen(process.env.PORT || 4006,() => {
-    console.log('Server started')
-})
 
 
 

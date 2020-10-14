@@ -1,5 +1,5 @@
-import React from 'react'
-import Header from "demand/Header"
+import React, {Fragment} from 'react'
+import Footer from '../components/Footer'
 // import './style.css'
 const Dedicated = () => {
     return (
@@ -7,7 +7,7 @@ const Dedicated = () => {
             <div className='container' >
                 Will be updated soon
             </div>
-            <Header/>
+            <Footer/>
         </div>
 
     )

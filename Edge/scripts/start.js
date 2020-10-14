@@ -12,7 +12,7 @@ const promiseWrapper = (name,compiler) => {
                 return resolve()
             }
             console.log(`Failed to compile ${name} config`)
-            console.log(stats)
+            console.log(stats,err)
             return reject('')
 
         })
@@ -34,7 +34,7 @@ const start = async () => {
     await promiseWrapper('client',clientCompiler).then(() => {}).catch(res => {})
     await promiseWrapper('server',serverCompiler).then(() => {}).catch(res => {})
     // serverCompiler.watch(watchOptions)
-    shell.exec('node dist/server/serverBundle.js')
+    shell.exec('node dist/server/main.js')
 
 }
 
